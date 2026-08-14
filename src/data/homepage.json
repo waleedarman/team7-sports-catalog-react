@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "label": "PERFORMANCE GEAR",
+    "title": "BUILT FOR YOUR NEXT MOVE",
+    "description": "Engineered with high-tensile materials and aerodynamic precision. Push past your limits with gear designed for elite performance.",
+    "primaryButton": {
+      "label": "SHOP NEW GEAR",
+      "route": "/products"
+    },
+    "secondaryButton": {
+      "label": "EXPLORE CATEGORIES",
+      "target": "shop-by-performance"
+    },
+    "featuredProductId": "P001"
+  },
+  "sections": {
+    "categoriesTitle": "SHOP BY PERFORMANCE",
+    "categoriesAction": "VIEW ALL",
+    "trendingTitle": "TRENDING GEAR",
+    "trendingAction": "SHOP ALL"
+  }
+}

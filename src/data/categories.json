@@ -1,0 +1,44 @@
+[
+  {
+    "id": "running",
+    "name": "Running",
+    "description": "Engineered for speed and endurance.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=running"
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "description": "Build power with elite equipment.",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=strength"
+  },
+  {
+    "id": "home-fitness",
+    "name": "Home Fitness",
+    "description": "Studio-grade gear for your space.",
+    "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=home-fitness"
+  },
+  {
+    "id": "recovery",
+    "name": "Recovery",
+    "description": "Accelerate healing and readiness.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=recovery"
+  },
+  {
+    "id": "outdoor",
+    "name": "Outdoor",
+    "description": "Defy the elements with technical gear.",
+    "image": "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=outdoor"
+  },
+  {
+    "id": "team-sports",
+    "name": "Team Sports",
+    "description": "Dominate the court and field.",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=900&h=1200&q=85",
+    "route": "/products?category=team-sports"
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "P001",
+    "name": "AERO STRIDER PRO",
+    "price": 189,
+    "category": "Running",
+    "rating": 4.9,
+    "reviewCount": 124,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDQX3lMBR8Xas6R-WBMfr-7aPWU_vkrzLHbzS9Mja_uYw4D6jpDeNKTBWziMYb5RK8RPbVdVc4WtJsAxOevPzM2vHpSZtn_9k84xscUofxVUUzrge5xztaewr7MVqwJWey11JgmYOI608PwmQ2riXJjPFU3w7LSwcExgFFSz9NUoW1SjLYHkysp3_ilksHx6O1Anu3PJ6Iwt5sdTQr6YLpkqzVEHuZ_gxIVCYtU4itNhygY0afzxo7YlA",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBjwwdOLK6V4JTLAgV7wcxoOsQ8T_QqNAu26JuAF4mZJp83UglS2_SSfqmLC7SS51DSG77mx9ibM2DYNjGGZ-39Jcq-7ZT3897BR75Ljlbap_pgcuo7VRAjIEPdPo3da7apnfZL7NfBpetcFR1hep188T24xiRq0UqgwQ2KVpxkBK0MgiO-VgXJFN3GSK1BSa--ucfKfwckKA-QrBTIWyfbrzelpAoqxppzdWEgN6Mc1ku2U4691FNdZA",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCrQbFnd0_ETTcSiOLj9AqIO9VYXgTtg0pUSWg3ygALvYdZSCcILen73Wjja-wJ9bjcLXNV79awISCO7xDoTUz8P3bjdv_T50kzjNSdTzqrsLdIzK1VkleQnbpwxV9H0FHxtUF2XkINibAmRZiitT2KN-WsKS15_U8KpPP2JJ-aiuLEY3EgBzGF3mZ7tSSt_cLbr9-tArimoyWLO8Hy8pKF9ON3F1cBZ8PT-FbXnAVXZ3fXTIR0GTRW0w",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD-fhpgkP2EgY3zuQmr36KBM2w4K1Xk52aYtWZzbuMz2UjHMMnm_2v3x8ppTT-F5neGZ6KRIAMav4mBtkIigKVrn7m4B_0J_0Jf4y5TLsy6yWo0WsGB5r3Qi4iGnXmX33tcqtxr5lFu8yd05norktjjNqx0SWbglfj74Zhh9CwbFC8vbCeTvbFqOZENPFMzjwP3KyGOJB8N5_doQo36Hotz3-SD8tZU35CXcSkNUT6Sdm8LGymQe-WOZw"
+    ],
+    "colors": ["#1A1C1B", "#CCFF00"],
+    "colorOptions": [
+      {
+        "id": "phantom-lime",
+        "name": "Phantom / Electric Lime",
+        "primary": "#1A1C1B",
+        "secondary": "#CCFF00",
+        "available": true
+      },
+      {
+        "id": "arctic-cobalt",
+        "name": "Arctic White / Cobalt",
+        "primary": "#F9F9F7",
+        "secondary": "#0040E0",
+        "available": true
+      },
+      {
+        "id": "crimson-carbon",
+        "name": "Crimson / Carbon",
+        "primary": "#C62828",
+        "secondary": "#1A1C1B",
+        "available": true
+      }
+    ],
+    "sizes": [
+      { "value": "7", "available": true },
+      { "value": "7.5", "available": true },
+      { "value": "8", "available": true },
+      { "value": "8.5", "available": true },
+      { "value": "9", "available": true },
+      { "value": "9.5", "available": true },
+      { "value": "10", "available": false },
+      { "value": "10.5", "available": true },
+      { "value": "11", "available": true },
+      { "value": "11.5", "available": true },
+      { "value": "12", "available": true },
+      { "value": "13", "available": true }
+    ],
+    "description": "Engineered for maximum velocity. The Aero Strider Pro combines a carbon-infused propulsive plate with our lightest, most responsive kinetic foam to date.",
+    "tags": ["Carbon Plate", "198g"],
+    "details": [
+      {
+        "label": "Material",
+        "value": "Breathable engineered mesh with carbon-infused plate"
+      },
+      {
+        "label": "Weight",
+        "value": "7.8 oz (221g) - Size 9"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Racing, Tempo Runs"
+      },
+      {
+        "label": "Available Sizes",
+        "value": "US Men 7–13, including half sizes"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": true,
+    "trending": true,
+    "inStock": true
+  },
+  {
+    "id": "P002",
+    "name": "P7-VOID JACKET",
+    "price": 185,
+    "category": "Training",
+    "rating": 4.8,
+    "reviewCount": 86,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAPexmuaGzoskeHMLGtNddbqJG-7HqEQETrb9TmmG2v9tgRPPRWZobRcYeQBChyd1xqqVYBOJoo5a8bs7soCZBErgLmJ-7AYbOiWsx_KXm8WAVI6H-muIDuazeDG7yD-pFXdylwc-Uv1jcRNRaDhaonN7gwuWRTLrMuFKpGTzt6nI1oakz6woPXHrswvu_gn-SqT9GwrFMnANOCNcWL3tBq3SsUELjbQoBs83RtnxOVqYOc6H3xHMYcDw",
+    "colors": ["#151817", "#616761"],
+    "colorOptions": [
+      {
+        "id": "void-black",
+        "name": "Void Black",
+        "primary": "#151817",
+        "secondary": "#616761",
+        "available": true
+      },
+      {
+        "id": "storm-grey",
+        "name": "Storm Grey",
+        "primary": "#616761",
+        "secondary": "#E3E5DF",
+        "available": true
+      }
+    ],
+    "sizes": [
+      { "value": "S", "available": true },
+      { "value": "M", "available": true },
+      { "value": "L", "available": true },
+      { "value": "XL", "available": true }
+    ],
+    "description": "Lightweight technical training jacket built for variable conditions and high-output sessions.",
+    "tags": ["Lightweight", "Weather Resistant"],
+    "details": [
+      {
+        "label": "Material",
+        "value": "Ripstop shell with DWR water-resistant finish"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Training, Outdoor Warm-ups"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": true,
+    "trending": true,
+    "inStock": true
+  },
+  {
+    "id": "P003",
+    "name": "RECOVERY MASSAGE GUN",
+    "price": 150,
+    "category": "Recovery",
+    "rating": 4.9,
+    "reviewCount": 73,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuXPPtnNlKcNJKilg2ynANpRIkPs_2cR8Cnf4X9G3tdkFAFL3wABbgJ0Lf2TZURpTfk4dXUW5UBnJZcak_mU9e8aAFGfRBWYg5hUYHRwp03asrhLRQQXJBE3CsJ4227N1ha-6F7gE2heXBYzaTcXblg1wJOvf3ja3HRRyfyaog7WMVUnTFS3cdyqnkRJTujJVdTxpOcEs1LIrA_kWzItj6fz4F4t4eJucLgfTXyRfKr0SdczzAyvtUUw",
+    "colors": ["#151817", "#E3E5DF"],
+    "description": "Compact recovery tool for post-training muscle relief with precision percussion therapy.",
+    "tags": ["Recovery", "Portable"],
+    "details": [
+      {
+        "label": "Power",
+        "value": "Multi-speed percussion motor with 4 attachment heads"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Post-workout recovery and mobility"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": true,
+    "trending": true,
+    "inStock": true
+  },
+  {
+    "id": "P004",
+    "name": "HEX-SET ADJUSTABLE DUMBBELLS",
+    "price": 250,
+    "category": "Strength",
+    "rating": 5,
+    "reviewCount": 58,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCLHCIA7S701dWy9B7ZJ7M-K7SVIsKyP703HsSLppY3jOL0ebLZuW906-ZS1iKrFyzckhnMa64AktXG1vINzU1y2IRQeYMOQo6yfjYMLJaMm2LjLdAdL4LJo7bDNrnuzNZGj6h143Cb0JHjLmEs7wfI7PK7Zt5XMHiRopVm5RWiFBMTyIRRy4moAkxfa91yAJa0TmgVd0y3LKJCG4DIRpbKwXopx_x-oNF2PfAAD6jwT4io_ChZNV_7VQ",
+    "colors": ["#151817"],
+    "description": "Adjustable strength equipment for home and gym training with knurled elite grip.",
+    "tags": ["Adjustable", "Strength"],
+    "details": [
+      {
+        "label": "Material",
+        "value": "Matte steel with knurled grip handles"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Strength training, Hypertrophy"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": true,
+    "trending": true,
+    "inStock": true
+  },
+  {
+    "id": "P005",
+    "name": "FLOW-MAT YOGA MAT",
+    "price": 65,
+    "category": "Home Fitness",
+    "rating": 4.7,
+    "reviewCount": 41,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB7sa6IkuogGkfziKm6IB8rX4OpGRgfbDFJUiZn-xoRbDZKKmb3AiizPT2ujqjtLhD86VoH7oD7Hu6lik_cXW2ugoHYq0Q_zBfBUUt_nCOI8wVM_J0VU__R1ciT5dM2OfQskAvDlS6VOx_kFzoXY2kz1XwpFJUxU_jHu_G40Ad08NiuBNa2b3Z9fyHVhD7Ll_UPm2i_icUIhJRtA3QmM98PpK-4Eeo7KRUkcVB7rgujEA2y0Fn78fHWtg",
+    "colors": ["#616761", "#CCFF00"],
+    "description": "Comfortable training mat for yoga and home workouts with non-slip surface.",
+    "tags": ["Non-Slip", "Lightweight"],
+    "details": [
+      {
+        "label": "Material",
+        "value": "High-density TPE with textured grip surface"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Yoga, Pilates, Home Fitness"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P006",
+    "name": "POWER-FLEX RESISTANCE BANDS",
+    "price": 45,
+    "category": "Home Fitness",
+    "rating": 4.6,
+    "reviewCount": 55,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAVGfTtbBuDIKj-du-17pEhO6XjzkmEjymQHhtmTbrsNcL_5PLYong4ys40kmx9GC3fagWyDABuID1c-6zhSLm6zOW-7Lf-9_SI5vuBNR0UxStjn8uXP5EIdnhe-Pc2xiT1IFg3f1fok-odOjuxYGHUQ_sos8J4Ix39eXWw1p_A1ydpjPUqB_1SbQHqmq9AHjrn_MV1XRZoDbsTGZ48M_NfDFC9MAZux03Zh4PcLdXQNc0OPtEub_GslQ",
+    "colors": ["#1A1C1B", "#CCFF00"],
+    "description": "A compact resistance band set for home strength and mobility training.",
+    "tags": ["Resistance", "Portable"],
+    "model": "FLX.SET",
+    "details": [
+      {
+        "label": "Includes",
+        "value": "5 resistance levels with carry pouch"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P007",
+    "name": "PULSE7 PRO-GRIP FOOTBALL",
+    "price": 60,
+    "category": "Team Sports",
+    "rating": 4.9,
+    "reviewCount": 112,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBfeSusg9xu04FnCzuIUFrt69g1SdmbEgunQmfcS1XvivtZ9u_scfUV-f88n9KUC2gipJ4uHpcBUiVAYZcSTMNsBy--eXbOhJIJIivU5CCGhNxzNusu0tkcHVVKGg7e5ThRkWh3g7JRfYVC-OQyr6SVGXRPVX1we8orCb3qDeW8Whhhb5WDb-jiznalSiCPthrCwj3rjxuCyMPqaV4MPl0g3o7CF2y24Kzih8VGgmGE-s6Q05b5VCx2KA",
+    "colors": ["#1A1C1B"],
+    "description": "Professional-grade football with enhanced grip for training and competition.",
+    "tags": ["Pro Grip", "Team Sports"],
+    "model": "GRIP.PRO",
+    "details": [
+      {
+        "label": "Material",
+        "value": "Composite leather with pro-grip texture"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P008",
+    "name": "IRON CORE KETTLEBELL 24KG",
+    "price": 85,
+    "category": "Strength",
+    "rating": 4.9,
+    "reviewCount": 185,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcD12Rb14_hkYvajHRapMaGjWRzMF_O1grVvjvLewAnNWU3fNHQ-ogrBFNDWiZ9jYUaQmb3lO9Qeo9ooNMPSkWjMWciL34qFSxXRtHRJcE3HYMTj8qFzP8zixTBn2I-ahOF1e2LXNRn6HS0hfkGbzUGriwohRaY2te3O1l2uZsRrPQ8DxhYwvSt7NoUsPjE1_LCPAdblBWkvNalL9lScq9RvmAXC7jeKNb_tG6RN57w8vaewiOYNOf1g",
+    "colors": ["#1A1C1B"],
+    "description": "Cast iron kettlebell engineered for explosive strength and conditioning.",
+    "tags": ["24KG", "Cast Iron"],
+    "model": "KB.24",
+    "details": [
+      {
+        "label": "Weight",
+        "value": "24 kg cast iron"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P009",
+    "name": "PRO ALIGNMENT YOGA MAT",
+    "price": 68,
+    "category": "Home Fitness",
+    "rating": 4.8,
+    "reviewCount": 215,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCAz7WKOm8GjU89ULwfy63WHoYWBKugvw-1g4jEiqDpkOT1EHOvjSjAZ05sNOw9MgvU7Zal_0UZnYnlSLb1bgGcVZMqWMllUXiaJVKAZM-H9qIvffETnNaRbHkbIx4wTUrNTJgyNFpPFYrMSnpmBR6Vh6yUGxTQAkRjMx8e6Lj8DZ329MvPteQzIlXBHAJFPyNHFl4c2Rs3_wdOMChKE3mKInqR4do5U0woF-m1YVhnY8itoW_xCocrug",
+    "colors": ["#FFFFFF", "#1A1C1B"],
+    "description": "Alignment-guided yoga mat for precision home fitness sessions.",
+    "tags": ["Alignment", "Non-Slip"],
+    "model": "MAT.PRO",
+    "details": [
+      {
+        "label": "Features",
+        "value": "Alignment markers and cushioned support"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P010",
+    "name": "PULSE TRACK SMARTWATCH",
+    "price": 249,
+    "category": "Running",
+    "rating": 4.7,
+    "reviewCount": 342,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCpCR3PiJzDk3rFbUieiscn3PZe6tlpym7cB5KPTMKnqzX_lh7gaXP5pVJjmwbQKXdfOkTjB6caQ0h3YbsnukkYofAoutQDkkMU34wXd0g0na7RJwmXKOr3f8NB6zPr158zcbZo3o5Q2k4_swYQl9saNTq4Q0kFxj8UN7_FVNlt9w3hDujNrolQi4bo0qz1Q5QJmk61Defi9_S9j5Bk5aSXcvnZiR8GVKpMl3Y2HbZv7CnmnB0ltYxG0A",
+    "colors": ["#1A1C1B", "#FFFFFF"],
+    "colorOptions": [
+      {
+        "id": "midnight",
+        "name": "Midnight Black",
+        "primary": "#1A1C1B",
+        "secondary": "#616761",
+        "available": true
+      },
+      {
+        "id": "arctic",
+        "name": "Arctic White",
+        "primary": "#FFFFFF",
+        "secondary": "#E3E5DF",
+        "available": true
+      }
+    ],
+    "description": "Advanced running smartwatch with performance tracking and GPS.",
+    "tags": ["GPS", "Heart Rate"],
+    "model": "TRK.X1",
+    "details": [
+      {
+        "label": "Features",
+        "value": "GPS, heart rate monitoring, pace analytics"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": true,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P011",
+    "name": "TACTICAL TRAINING BENCH",
+    "price": 325,
+    "category": "Strength",
+    "rating": 4.9,
+    "reviewCount": 88,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBz3YkSxFRGzdxd3Zh6vXtKswPMptdb6WPxx8CavmnT8FcySjtxGAr-SiheRZ8weh1244DlDGVdFWK1T_zC_VqeTJQ1nVpXwKD5jVODO2QxHUKUmAXOKSOYsHlXKxojNm8gwernagaPVYgDzEKaU00R7UKqu4gpRy_FU1nRFeU-4Nh9XBEvOly4_k_MDBN2lXcaX53ZMzKyL8v-CMJWFA9ou8iL7nWI_3yeEtC3UGfdGLEO4GLZRnjlGQ",
+    "colors": ["#1A1C1B"],
+    "description": "Heavy-duty adjustable training bench for serious strength work.",
+    "tags": ["Adjustable", "Heavy Duty"],
+    "model": "BNCH.T",
+    "details": [
+      {
+        "label": "Capacity",
+        "value": "Supports up to 600 lbs with adjustable incline"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  },
+  {
+    "id": "P012",
+    "name": "APEX ALL-TERRAIN HIKER",
+    "price": 195,
+    "category": "Outdoor",
+    "rating": 4.8,
+    "reviewCount": 156,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHMsaOktNgRjrUUZwwaPpqa7PTWslo86UI13mEL3T6Ge2SfGNMeGZwOwUhx1A8BzbqjWVy6wTNqz4r9B_DbcJDQRKFGlaq6XQ_0GpdReK8PjtKBLFu7_e-PjlfuYLvK08giETIivnOTTKxlvGMKzNIO_8X5bbrr8Ad47q2tYf0eaUYJnho9vdnhrDxloAjzmNIiN3F91Kb6vnqmoHwGlhhgbnf1MkTJ_4NA6AK6LEKmgvuTLtjuukX4w",
+    "colors": ["#616761", "#E3E5DF"],
+    "colorOptions": [
+      {
+        "id": "trail-grey",
+        "name": "Trail Grey",
+        "primary": "#616761",
+        "secondary": "#E3E5DF",
+        "available": true
+      }
+    ],
+    "sizes": [
+      { "value": "8", "available": true },
+      { "value": "9", "available": true },
+      { "value": "10", "available": true },
+      { "value": "11", "available": true },
+      { "value": "12", "available": true }
+    ],
+    "description": "Technical all-terrain hiking footwear built for rugged outdoor trails.",
+    "tags": ["Waterproof", "All-Terrain"],
+    "model": "TRL.APX",
+    "details": [
+      {
+        "label": "Material",
+        "value": "Waterproof technical upper with rugged outsole"
+      },
+      {
+        "label": "Recommended Use",
+        "value": "Hiking, Trail Running"
+      }
+    ],
+    "stockMessage": "In Stock - Ships in 24 hours",
+    "featured": false,
+    "trending": false,
+    "inStock": true
+  }
+]
