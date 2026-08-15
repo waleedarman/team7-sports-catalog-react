@@ -34,8 +34,11 @@ function HeroSection() {
     setSnackbarOpen(true);
   };
 
-  const handleExploreCategories = () => {
-    const section = document.getElementById(homepage.hero.secondaryButton.target);
+  const handleExploreCategories = (event) => {
+    // getRootNode() is the document when standalone and the shadow root when
+    // mounted as <pulse7-catalog>, where document.getElementById cannot see in.
+    const root = event.currentTarget.getRootNode();
+    const section = root.getElementById(homepage.hero.secondaryButton.target);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }

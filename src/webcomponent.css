@@ -1,0 +1,56 @@
+/**
+ * Shadow-root stylesheet for <pulse7-catalog>, imported with `?inline` and
+ * injected into the shadow root by webcomponent-entry.jsx.
+ *
+ * It mirrors index.css, minus the html/body/#root rules that have no meaning
+ * inside a shadow tree. The element selectors keep the exact specificity they
+ * have in the standalone build, so MUI's Emotion classes still win the same
+ * ties they win today.
+ */
+
+:host {
+  display: block;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+/**
+ * Inherited properties are the only channel through which the host page can
+ * still reach the shadow tree: a rule such as `* { font-family: serif }`
+ * matches the <pulse7-catalog> element itself and inherits inwards. Declaring
+ * them on an element *inside* the shadow root closes that channel, because no
+ * outside selector can match here. Font, colour, background, line-height and
+ * letter-spacing are already re-declared by <ScopedCssBaseline>, which reads
+ * them from the theme; this block covers the rest.
+ */
+.pulse7-catalog-root {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  direction: ltr;
+  text-align: start;
+  text-indent: 0;
+  text-transform: none;
+  white-space: normal;
+  word-spacing: normal;
+  font-style: normal;
+  font-variant: normal;
+  cursor: auto;
+  visibility: visible;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
