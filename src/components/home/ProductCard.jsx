@@ -1,14 +1,4 @@
-import { useState } from 'react';
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  IconButton,
-  Typography,
-} from '@mui/material';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { Box, Button, Card, CardContent, Typography } from '@mui/material';
 import StarIcon from '@mui/icons-material/Star';
 import { Link as RouterLink } from 'react-router';
 import { formatPrice } from '../../data/products';
@@ -16,19 +6,11 @@ import { addToCart } from '../../utils/cart';
 import { pulse7Colors } from '../../theme/theme';
 
 function ProductCard({ product, onAddedToCart }) {
-  const [wishlisted, setWishlisted] = useState(false);
-
   const handleQuickAdd = (event) => {
     event.preventDefault();
     event.stopPropagation();
     addToCart(product);
     onAddedToCart(product.name);
-  };
-
-  const handleWishlistToggle = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    setWishlisted((prev) => !prev);
   };
 
   return (
@@ -77,31 +59,6 @@ function ProductCard({ product, onAddedToCart }) {
             }}
           />
         </Box>
-        <IconButton
-          aria-label={wishlisted ? 'Remove from wishlist' : 'Add to wishlist'}
-          onClick={handleWishlistToggle}
-          sx={{
-            position: 'absolute',
-            top: { xs: 8, sm: 12 },
-            right: { xs: 8, sm: 12 },
-            width: { xs: 34, sm: 40 },
-            height: { xs: 34, sm: 40 },
-            bgcolor: 'rgba(255,255,255,0.85)',
-            backdropFilter: 'blur(4px)',
-            '&:hover': {
-              bgcolor: 'rgba(255,255,255,0.95)',
-              color: pulse7Colors.error,
-            },
-          }}
-        >
-          {wishlisted ? (
-            <FavoriteIcon
-              sx={{ fontSize: { xs: 17, sm: 20 }, color: pulse7Colors.error }}
-            />
-          ) : (
-            <FavoriteBorderIcon sx={{ fontSize: { xs: 17, sm: 20 } }} />
-          )}
-        </IconButton>
       </Box>
 
       <CardContent

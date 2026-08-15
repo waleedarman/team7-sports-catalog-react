@@ -1,16 +1,6 @@
 import { useMemo, useState } from 'react';
-import {
-  Alert,
-  Box,
-  Button,
-  IconButton,
-  Rating,
-  Snackbar,
-  Typography,
-} from '@mui/material';
+import { Alert, Box, Button, Rating, Snackbar, Typography } from '@mui/material';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
-import FavoriteBorderOutlined from '@mui/icons-material/FavoriteBorderOutlined';
-import FavoriteOutlined from '@mui/icons-material/FavoriteOutlined';
 import { formatPrice } from '../../data/products';
 import { addToCart } from '../../utils/cart';
 import ProductOptions from './ProductOptions';
@@ -25,7 +15,6 @@ function ProductInfo({ product }) {
   const [selectedColor, setSelectedColor] = useState(() => getInitialColor(product));
   const [selectedSize, setSelectedSize] = useState('');
   const [quantity, setQuantity] = useState(1);
-  const [wishlisted, setWishlisted] = useState(false);
   const [snackbar, setSnackbar] = useState({
     open: false,
     message: '',
@@ -206,21 +195,6 @@ function ProductInfo({ product }) {
         >
           ADD TO CART
         </Button>
-
-        <IconButton
-          aria-label={wishlisted ? 'Remove from wishlist' : 'Add to wishlist'}
-          onClick={() => setWishlisted((prev) => !prev)}
-          sx={{
-            width: 56,
-            height: 56,
-            border: `1px solid ${pulse7Colors.primaryText}`,
-            borderRadius: '6px',
-            bgcolor: pulse7Colors.surface,
-            flexShrink: 0,
-          }}
-        >
-          {wishlisted ? <FavoriteOutlined color="error" /> : <FavoriteBorderOutlined />}
-        </IconButton>
       </Box>
 
       <Snackbar

@@ -16,8 +16,6 @@ import {
   Typography,
 } from '@mui/material';
 import MenuOutlined from '@mui/icons-material/MenuOutlined';
-import SearchOutlined from '@mui/icons-material/SearchOutlined';
-import FavoriteBorderOutlined from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
 import { Link as RouterLink, useLocation } from 'react-router';
 import { pulse7Colors } from '../../theme/theme';
@@ -31,7 +29,6 @@ const desktopNavLinks = [
 const mobileDrawerLinks = [
   { label: 'HOME', to: '/' },
   { label: 'SHOP', to: '/products' },
-  { label: 'WISHLIST', to: '/wishlist' },
   { label: 'SIGN IN', to: '/login' },
 ];
 
@@ -183,24 +180,6 @@ function Navbar() {
             </Box>
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 0.5, md: 1 } }}>
-              <IconButton
-                component={RouterLink}
-                to="/products"
-                aria-label="Search products"
-                color="inherit"
-                sx={{ display: { xs: 'none', md: 'inline-flex' } }}
-              >
-                <SearchOutlined />
-              </IconButton>
-              <IconButton
-                component={RouterLink}
-                to="/wishlist"
-                aria-label="Wishlist"
-                color="inherit"
-                sx={{ display: { xs: 'none', md: 'inline-flex' } }}
-              >
-                <FavoriteBorderOutlined />
-              </IconButton>
               <IconButton
                 component={RouterLink}
                 to="/cart"

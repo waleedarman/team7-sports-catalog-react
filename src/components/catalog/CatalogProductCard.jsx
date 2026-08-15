@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, IconButton, Snackbar, Typography } from '@mui/material';
-import FavoriteBorderOutlined from '@mui/icons-material/FavoriteBorderOutlined';
-import FavoriteOutlined from '@mui/icons-material/FavoriteOutlined';
+import { Box, Button, Snackbar, Typography } from '@mui/material';
 import StarIcon from '@mui/icons-material/Star';
 import { Link as RouterLink } from 'react-router';
 import { formatPrice } from '../../data/products';
@@ -9,7 +7,6 @@ import { addToCart } from '../../utils/cart';
 import { pulse7Colors } from '../../theme/theme';
 
 function CatalogProductCard({ product }) {
-  const [wishlisted, setWishlisted] = useState(false);
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   const visibleColors = product.colors.slice(0, 3);
@@ -20,12 +17,6 @@ function CatalogProductCard({ product }) {
     event.stopPropagation();
     addToCart(product);
     setSnackbarOpen(true);
-  };
-
-  const handleWishlistToggle = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    setWishlisted((prev) => !prev);
   };
 
   return (
@@ -59,33 +50,6 @@ function CatalogProductCard({ product }) {
             bgcolor: '#F1F1EE',
           }}
         >
-          <IconButton
-            aria-label={wishlisted ? 'Remove from wishlist' : 'Add to wishlist'}
-            onClick={handleWishlistToggle}
-            sx={{
-              position: 'absolute',
-              top: { xs: 8, sm: 12 },
-              right: { xs: 8, sm: 12 },
-              zIndex: 2,
-              width: { xs: 34, sm: 42 },
-              height: { xs: 34, sm: 42 },
-              bgcolor: pulse7Colors.surface,
-              color: pulse7Colors.primaryText,
-              boxShadow: '0 2px 8px rgba(26, 28, 27, 0.08)',
-              '&:hover': {
-                bgcolor: pulse7Colors.surface,
-              },
-            }}
-          >
-            {wishlisted ? (
-              <FavoriteOutlined
-                sx={{ fontSize: { xs: 17, sm: 20 }, color: pulse7Colors.error }}
-              />
-            ) : (
-              <FavoriteBorderOutlined sx={{ fontSize: { xs: 17, sm: 20 } }} />
-            )}
-          </IconButton>
-
           <Box
             component={RouterLink}
             to={`/products/${product.id}`}
